@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no">
     <title>GeekoShop</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -15,10 +14,8 @@
 </head>
 
 <body>
-
-
     <!--Esto es todo mi navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark ">
         <a class="navbar-brand" href="#">GeekoShop</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +47,13 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Escriba aqui" aria-label="Search">
-                <button class="btn btn-dark" type="submit">Buscar</button>
+                <button class="btn btn-light" type="submit">Buscar</button>
             </form>
         </div>
     </nav>
 
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid text">
         <div class="container">
             <h1 class="display-4">Tienda online</h1>
             <p class="lead">Bienvenidos a GeekoShop la tienda online con los mejores productos para ti y toda la
@@ -64,93 +61,91 @@
         </div>
     </div>
 
-    <!--Este es mi grid-->
+    <!--Este es mi grid ahora transformado a flex-->
     <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-md-4 col-lg-4 col-sm-6">
+        <div class="d-flex flex-column">
+            <!--P es padding-->
+            <div class="p-2">
                 <h2>GekkoShop</h2>
                 <p>Bienvenido a GeekoShop la mejor tienda online donde encontraras productos de gran calidad. </p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
-            <div class="col-md-4 col-lg-4 col-sm-6">
+            <div class="p-2">
                 <h2>Ubicacion </h2>
                 <p>Calle sistema #34, Fraccionamiento Villas del sol, entre calles translacion y galaxia. </p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
-            <div class="col-md-4 col-lg-4 col-sm-6">
+            <div class="p-2">
                 <h2>Productos </h2>
                 <p>Tenemos la mejor calidad/precio en nuestros productos para tu felicidad!.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
         </div>
+    </div>
 
-        <!--Esto es nuestro footer y empezamos aqui con las redes sociales-->
-        <footer class="page-footer bg-dark">
-            <div class="bg-success">
-                <div class="container">
-                    <div class="row py-4 d-flex align-items-center">
-                        <div class="col-md-12 text-center">
-                            <a href="#"><i class="fab fa-facebook text-white mr-4"></i></a>
-                            <a href="#"><i class="fab fa-twitter text-white mr-4"></i></a>
-                            <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
-                        </div>
+    
+    <!--Esto es nuestro footer y empezamos aqui con las redes sociales-->
+    <footer class="page-footer bg-dark ">
+        <div class="bg-secondary">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fab fa-facebook text-white mr-4"></i></a>
+                        <a href="#"><i class="fab fa-twitter text-white mr-4"></i></a>
+                        <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="container text-center text-md-left mt-5">
-                <div class="row">
-                    <div class="col-md-3 mx-auto mb-4">
-                        <h6 class="text-uppercase font-weight-bold">GeekoShop</h6>
-                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 120px; height: 2px;">
-                        <p class="mt-2">Disfruta de GeekoShop con todas tus amistades y familiares comprando y navegando
-                            en la alta calidad de productos que tenemos a la venta.</p>
-                    </div>
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold text-white">GeekoShop</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 95px; height: 2px;">
+                    <p class="mt-2 text-white">Disfruta de GeekoShop con todas tus amistades y familiares comprando y navegando
+                        en la alta calidad de productos que tenemos a la venta.</p>
+                </div>
 
-                    <div class="col-md-2 mx-auto mb-4">
-                        <h6 class="text-uppercase font-weight-bold">Producto</h6>
-                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px;">
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold text-white">Producto</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px;">
 
-                        <ul class="list-unstyled">
-                            <li class="my-2"><a href="#">Deportivo</a></li>
-                            <li class="my-2"><a href="#">Hogar</a></li>
-                            <li class="my-2"><a href="#">Electronico</a></li>
-                            <li class="my-2"><a href="#">Personal</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 mx-auto mb-4">
-                        <h6 class="text-uppercase font-weight-bold">Enlaces útiles</h6>
-                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 130px; height: 2px;">
-                        <ul class="list-unstyled">
-                            <li class="my-2"><a href="#">Home</a></li>
-                            <li class="my-2"><a href="#">Sobre nosotros</a></li>
-                            <li class="my-2"><a href="#">Productos</a></li>
-                            <li class="my-2"><a href="#">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 mx-auto mb-4">
-                        <h6 class="text-uppercase font-weight-bold ">Contactanos</h6>
-                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px;">
-                        <ul class="list-unstyled">
-                            <li class="my-2"><i href="#"><i class="fas fa-home"></i> Sistema #34, Fraccionamiento villas
-                                    del sol</li>
-                            <li class="my-2"><i href="#"><i class="fas fa-envelope"></i> adrian1jr@gmail.com</li>
-                            <li class="my-2"><i href="#"><i class="fas fa-phone"></i> 8671798518</li>
-                        </ul>
-                    </div>
-        </footer>
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">Deportivo</a></li>
+                        <li class="my-2"><a href="#">Hogar</a></li>
+                        <li class="my-2"><a href="#">Electronico</a></li>
+                        <li class="my-2"><a href="#">Personal</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold text-white">Enlaces útiles</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 130px; height: 2px;">
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">Sobre nosotros</a></li>
+                        <li class="my-2"><a href="#">Productos</a></li>
+                        <li class="my-2"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mx-auto mb-4">
+                <address>
+                    <h6 class="text-uppercase font-weight-bold text-white ">Contactanos</h6>       
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 120px; height: 2px;">
+                    <ul class="list-unstyled">
+                        <li class="my-2 text-white"><i href="#"><i class="fas fa-home"></i> Sistema #34, Fraccionamiento villas
+                                del sol</li>
+                        <li class="my-2 text-white"><i href="#"><i class="fas fa-envelope"></i> adrian1jr@gmail.com</li>
+                        <li class="my-2 text-white"><i href="#"><i class="fas fa-phone"></i> 8671798518</li>
+                    </ul>
+                </address>
+                </div>
+    </footer>
 
-        <!-- JQuery -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-
-        <script src="node_modules/jquery/dist/jquery.slim.js"></script>
-        <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
