@@ -1,0 +1,39 @@
+/* Aqui tenemos el jumbotron */
+.jumbotron{
+    padding: 100px;
+    background-color: rgb(102, 153, 153);
+    color:black;
+}
+
+/* Si dejamos con . esto nos ayudar a algo en especifico AQUI TENEMOS NUESTROS BOTONES. */
+.card-design{
+    flex: 1 250px;  
+    padding: 2px 0px 2px 0px;
+    margin-top: 10px;
+}
+
+/* En esta parte encontramos todo lo modificado de nuestro footer */
+
+/* aqui pongo el color de el footer que es la parte de abajo de las redes sociales */
+.page-footer{
+    background-color: #2F4F4F;
+}
+
+/* aqui modifico todas las hr que son las barritas que estan abajo de cada columna del footer */
+hr{
+   width:95px;
+   height: 2px;
+   display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}

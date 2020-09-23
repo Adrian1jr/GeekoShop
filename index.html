@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no">
     <title>GeekoShop</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/principal.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -15,7 +16,7 @@
 
 <body>
     <!--Esto es todo mi navbar-->
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">GeekoShop</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +36,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Tienda
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
                         <a class="dropdown-item" href="#">Hogar</a>
                         <a class="dropdown-item" href="#">Electronicos</a>
                         <a class="dropdown-item" href="#">Deportivo</a>
@@ -53,7 +54,7 @@
     </nav>
 
 
-    <div class="jumbotron jumbotron-fluid text">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Tienda online</h1>
             <p class="lead">Bienvenidos a GeekoShop la tienda online con los mejores productos para ti y toda la
@@ -61,32 +62,50 @@
         </div>
     </div>
 
-    <!--Este es mi grid ahora transformado a flex-->
+    <!--Aqui hice mi grid y lo transforme hacia flex-->
     <div class="container">
         <!-- Example row of columns -->
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-wrap">
             <!--P es padding-->
-            <div class="p-2">
+            <div class="d-flex flex-column card-design justify-content-between">
                 <h2>GekkoShop</h2>
                 <p>Bienvenido a GeekoShop la mejor tienda online donde encontraras productos de gran calidad. </p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
-            <div class="p-2">
+            <div class="d-flex flex-column card-design justify-content-between">
                 <h2>Ubicacion </h2>
                 <p>Calle sistema #34, Fraccionamiento Villas del sol, entre calles translacion y galaxia. </p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
-            <div class="p-2">
+            <div class="d-flex flex-column card-design justify-content-between">
                 <h2>Productos </h2>
                 <p>Tenemos la mejor calidad/precio en nuestros productos para tu felicidad!.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
             </div>
         </div>
+        <div class="d-flex flex-wrap">
+            <!--P es padding-->
+            <div class="d-flex flex-column card-design justify-content-between">
+                <h2>Articulos del hogar</h2>
+                <p>En esta categoria encontraras distintos productos como, sartenes, espatulas y entre otras cosas.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+            </div>
+            <div class="d-flex flex-column card-design justify-content-between">
+                <h2>Articulos electronicos</h2>
+                <p>En los articulos electronicos encontraras algunos como consolas,laptops, o componentes de PC.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+            </div>
+            <div class="d-flex flex-column card-design justify-content-between">
+                <h2>Articulos deportivos</h2>
+                <p>En esta seccion encontraras articulos como balones, ropa deportiva entre otras cosas.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+            </div>
+        </div>
     </div>
 
-    
+
     <!--Esto es nuestro footer y empezamos aqui con las redes sociales-->
-    <footer class="page-footer bg-dark ">
+    <footer class="page-footer">
         <div class="bg-secondary">
             <div class="container">
                 <div class="row py-4 d-flex align-items-center">
@@ -102,17 +121,18 @@
         <div class="container text-center text-md-left mt-5">
             <div class="row">
                 <div class="col-md-3 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold text-white">GeekoShop</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 95px; height: 2px;">
-                    <p class="mt-2 text-white">Disfruta de GeekoShop con todas tus amistades y familiares comprando y navegando
+                    <h6>GeekoShop</h6>
+                    <hr class="bg-success mb-4 mt-0  mx-auto">
+                    <p class="mt-2 text-white">Disfruta de GeekoShop con todas tus amistades y familiares comprando y
+                        navegando
                         en la alta calidad de productos que tenemos a la venta.</p>
                 </div>
 
                 <div class="col-md-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold text-white">Producto</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px;">
+                    <h6>Producto</h6>
+                    <hr class="bg-success mb-4 mt-0 mx-auto">
 
-                    <ul class="list-unstyled">
+                    <ul>
                         <li class="my-2"><a href="#">Deportivo</a></li>
                         <li class="my-2"><a href="#">Hogar</a></li>
                         <li class="my-2"><a href="#">Electronico</a></li>
@@ -120,9 +140,9 @@
                     </ul>
                 </div>
                 <div class="col-md-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold text-white">Enlaces útiles</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 130px; height: 2px;">
-                    <ul class="list-unstyled">
+                    <h6>Enlaces</h6>
+                    <hr class="bg-success mb-4 mt-0 mx-auto">
+                    <ul>
                         <li class="my-2"><a href="#">Home</a></li>
                         <li class="my-2"><a href="#">Sobre nosotros</a></li>
                         <li class="my-2"><a href="#">Productos</a></li>
@@ -130,18 +150,21 @@
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto mb-4">
-                <address>
-                    <h6 class="text-uppercase font-weight-bold text-white ">Contactanos</h6>       
-                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 120px; height: 2px;">
-                    <ul class="list-unstyled">
-                        <li class="my-2 text-white"><i href="#"><i class="fas fa-home"></i> Sistema #34, Fraccionamiento villas
-                                del sol</li>
-                        <li class="my-2 text-white"><i href="#"><i class="fas fa-envelope"></i> adrian1jr@gmail.com</li>
-                        <li class="my-2 text-white"><i href="#"><i class="fas fa-phone"></i> 8671798518</li>
-                    </ul>
-                </address>
+                    <address>
+                        <h6>Contacto</h6>
+                        <hr class="bg-success mb-4 mt-0 mx-auto">
+                        <ul>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-home"></i> Sistema #34,
+                                    Fraccionamiento villas
+                                    del sol</li>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-envelope"></i> adrian1jr@gmail.com
+                            </li>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-phone"></i> 8671798518</li>
+                        </ul>
+                    </address>
                 </div>
     </footer>
+
 
     <script src="node_modules/jquery/dist/jquery.slim.js"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
