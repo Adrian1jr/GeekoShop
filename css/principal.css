@@ -1,21 +1,39 @@
 /* Aqui tenemos el jumbotron */
-.jumbotron{
-    padding: 100px;
-    background-color: rgb(102, 153, 153);
-    color:black;
+.jumbotron{  
+    background-image: url("https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding: 200px 10px 300px 0px;
 }
 
+.titulo{
+    color:#444047;
+    text-align:center;
+    align-items: center;
+    font-family: 'Lobster',cursive;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    font-size: 80px;
+}
+  
 /* Si dejamos con . esto nos ayudar a algo en especifico AQUI TENEMOS NUESTROS BOTONES. */
 .card-design{
     flex: 1 250px;  
     padding: 2px 0px 2px 0px;
     margin-top: 10px;
+    align-items: center;
+    text-align: center;
 }
 
 .btn{
     background-color: lightgray;
     color: black;
 }
+
 
 /* En esta parte encontramos todo lo modificado de nuestro footer */
 
