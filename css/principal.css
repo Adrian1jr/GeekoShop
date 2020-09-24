@@ -12,6 +12,11 @@
     margin-top: 10px;
 }
 
+.btn{
+    background-color: lightgray;
+    color: black;
+}
+
 /* En esta parte encontramos todo lo modificado de nuestro footer */
 
 /* aqui pongo el color de el footer que es la parte de abajo de las redes sociales */
@@ -26,12 +31,14 @@ hr{
    display: inline-block;
 }
 
+/* aqui modifico todas las ul que son las listas desplegadas hacia abajo */
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* aqui modifico todas las h6 que son los titulos de el footer */
 h6{
     text-transform: uppercase;
     font-weight: bold;
