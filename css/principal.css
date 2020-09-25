@@ -17,7 +17,9 @@
     1px -1px 0 #fff,
    -1px 1px 0 #fff,
     1px 1px 0 #fff;
-    font-size: 80px;
+    font-size: 70px;
+    /*estos si fueran 20 seria 20% del ancho de la pagina */
+    font-size: 10vw;
 }
   
 /* Si dejamos con . esto nos ayudar a algo en especifico AQUI TENEMOS NUESTROS BOTONES. */
@@ -61,4 +63,28 @@ h6{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
+}
+
+.carousel-inner{
+    background-position: center;
+    background-size: cover;
+}
+
+.breadcrumb{
+    background-size: cover ;
+    margin: auto;
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
