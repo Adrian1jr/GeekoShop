@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no">
+    <title>GeekoShop</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/principal.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:300,400,500,700&display=swap">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <!--Esto es todo mi navbar-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="./index.html">GeekoShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ubicacion.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Tienda.html">Tienda</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Escriba aqui" aria-label="Search">
+                <button class="btn btn-light" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Soy un rastreo papu-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Tienda</li>
+        </ol>
+    </nav>
+
+    <!--Aqui estan todas las categorias y articulos de la tiendda-->
+    <div class="wrap">
+		<h1>Escoge un producto</h1>
+		<div class="store-wrapper">
+			<div class="category_list">
+				<a href="#" class="category_item" category="all">Todo</a>
+				<a href="#" class="category_item" category="Hogar">Hogar</a>
+				<a href="#" class="category_item" category="Deportivo">Deportivo</a>
+				<a href="#" class="category_item" category="Tecnologia">Tecnologia</a>
+				<a href="#" class="category_item" category="Personal">Personal</a>
+			</div>
+			<section class="products-list">
+				<div class="product-item" category="Hogar">
+					<img src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="No pudo cargarse" >
+					<a href="#">Escritorios</a>
+                </div>
+                <div class="product-item" category="Hogar">
+					<img src="https://images.unsplash.com/photo-1558317374-067fb5f30001?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Aspiradoras</a>
+				</div>
+				<div class="product-item" category="Hogar">
+					<img src="https://images.unsplash.com/photo-1549127024-5f213d45604a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" alt="No pudo cargarse" >
+					<a href="#">Vasos de vidrio</a>
+                </div>
+                <div class="product-item" category="Deportivo">
+					<img src="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Tachones</a>
+                </div>
+                <div class="product-item" category="Deportivo">
+					<img src="https://images.unsplash.com/photo-1512445181747-57ba1fa4ac83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="No pudo cargarse" >
+					<a href="#">Camisetas deportiva</a>
+                </div>
+                <div class="product-item" category="Deportivo">
+					<img src="https://images.unsplash.com/photo-1519435887317-eabcf2ab8075?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Pelotas de beisbol</a>
+                </div>
+                <div class="product-item" category="Tecnologia">
+					<img src="https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Tarjeta Grafica</a>
+                </div>
+                <div class="product-item" category="Tecnologia">
+					<img src="https://images.unsplash.com/photo-1599295532523-80403e6cac80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1324&q=80" alt="No pudo cargarse" >
+					<a href="#">Camara</a>
+                </div>
+                <div class="product-item" category="Tecnologia">
+					<img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Audifonos</a>
+                </div>
+                <div class="product-item" category="Personal">
+					<img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Perfumes</a>
+                </div>
+                <div class="product-item" category="Personal">
+					<img src="https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Sombreros</a>
+                </div>
+                <div class="product-item" category="Personal">
+					<img src="https://images.unsplash.com/photo-1585401586477-2a671e1cae4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="No pudo cargarse" >
+					<a href="#">Billeteras</a>
+				</div>
+			</section>
+		</div>
+	</div>
+
+    <!--Esto es nuestro footer y empezamos aqui con las redes sociales-->
+    <footer class="page-footer">
+        <div class="bg-secondary">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fab fa-facebook text-white mr-4"></i></a>
+                        <a href="#"><i class="fab fa-twitter text-white mr-4"></i></a>
+                        <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6>GeekoShop</h6>
+                    <hr class="bg-success mb-4 mt-0  mx-auto">
+                    <p class="mt-2 text-white">Disfruta de GeekoShop con todas tus amistades y familiares comprando
+                        y
+                        navegando
+                        en la alta calidad de productos que tenemos a la venta.</p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6>Producto</h6>
+                    <hr class="bg-success mb-4 mt-0 mx-auto">
+
+                    <ul>
+                        <li class="my-2"><a href="#">Deportivo</a></li>
+                        <li class="my-2"><a href="#">Hogar</a></li>
+                        <li class="my-2"><a href="#">Electronico</a></li>
+                        <li class="my-2"><a href="#">Personal</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6>Enlaces</h6>
+                    <hr class="bg-success mb-4 mt-0 mx-auto">
+                    <ul>
+                        <li class="my-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">Sobre nosotros</a></li>
+                        <li class="my-2"><a href="#">Productos</a></li>
+                        <li class="my-2"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mx-auto mb-4">
+                    <address>
+                        <h6>Contacto</h6>
+                        <hr class="bg-success mb-4 mt-0 mx-auto">
+                        <ul>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-home"></i> Sistema #34,
+                                    Fraccionamiento villas
+                                    del sol</li>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-envelope"></i>
+                                    adrian1jr@gmail.com
+                            </li>
+                            <li class="my-2 text-white"><i href="#"><i class="fas fa-phone"></i> 8671798518</li>
+                        </ul>
+                    </address>
+                </div>
+
+
+                <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+                <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+                <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
