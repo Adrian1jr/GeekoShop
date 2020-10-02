@@ -35,3 +35,9 @@ $(document).ready(function () {
         } setTimeout(showAll, 400);
     });
 });
+
+$(function () {
+    $('[data-toogle="popover"]').popover({
+        placement:"bottom"
+    })
+})

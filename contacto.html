@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/principal.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:300,400,500,700&display=swap">
 </head>
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./ubicacion.html">Contacto</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./Tienda.html">Tienda</a>
@@ -48,6 +48,16 @@
             <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
     </nav>
+
+    
+
+    <!--Esto es una alerta-->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hola Usuario!</strong> Verifica siempre llenar toda la informacion de los campos de contacto!.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 
     <!--Form de contacto con bootstrap MD osea material desgign-->
         <div class="bg-white">
@@ -95,7 +105,9 @@
                                                 <label for="form-text">Descripcion</label>
                                             </div>
                                             <div class="text-center mt-4">
-                                                <button class="btn btn-light-blue">Enviar</button>
+                                                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Verifca todo antes de presionar">
+                                                    Enviar
+                                                  </button>                                          
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +154,40 @@
             </div>
         </div>
 
-        
+        <!--Aqui ocupamos el collapse-->
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Presiona aqui para ver las preguntas mas frecuentes
+                  </button>
+                </h2>
+              </div>    
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <u>¿Cuáles son las formas de pago?</u> 
+                    <p></p>
+                    Cualquier compra de nuestra tienda online se puede pagar por tarjeta de crédito/débito, por transferencia bancaria o por Paypal
+                </div>
+                <div class="card-body">
+                <u>¿Puedo confiar al ingresar los datos de mi tarjeta?</u>
+                    <p></p>
+                    no tenemos acceso a tus datos bancarios en ningún momento. Al entrar en el proceso de pago, se te redirecciona a la pasarela de pago segura del banco y así tus datos son totalmente
+                     invisibles para nosotros. Una vez realizado el pago, es el banco el que nos da la confirmación instantánea de que el pago se ha tramitado correctamente.
+                </div>
+                <div>
+                    <div class="card-body">
+                    <u>Si pago por PayPal, me aparece una comisión ¿Cuál es el motivo?</u>
+                        <p></p>
+                        Paypal cobra una comisión a los establecimientos muy superior al de las tarjetas de crédito. 
+                        Es por ello que si no la cobramos de forma separada, en muchos casos perderíamos dinero con la venta ya que muchas veces esta comisión es superior a nuestro margen. 
+                        Recuerda que puedes evitar pagarla usando uno de los otros dos medios de pago.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <!--Esto es nuestro footer y empezamos aqui con las redes sociales-->
         <footer class="page-footer">
