@@ -108,9 +108,10 @@ h6{
  .carousel-inner{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover ;
+	background-size: cover ;
      /*Top-Right-Bottom-Left*/
-    padding: 0px 0px 0px 0px;
+	margin-top: auto;
+	
  }
 
  /*Aqui esta el texto grande del jumbotron de sobre nosotros*/
@@ -118,7 +119,7 @@ h6{
     font-family: 'Anton', sans-serif;
      text-align: center;
      align-items: center;
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
  }
 
  /*Aqui las letras chicas del jumbotron de sobre nosotros*/
@@ -296,8 +297,11 @@ body{
 }
 
 
+/*Aqui tenemos el ajustado de la alerta en la pesta;a contacto*/
 .alert{
 	margin: auto;
 	text-align: center;
 	align-items: center;
 }
+
+

@@ -36,8 +36,4 @@ $(document).ready(function () {
     });
 });
 
-$(function () {
-    $('[data-toogle="popover"]').popover({
-        placement:"bottom"
-    })
-})
+$('[data-toogle="popover"]').popover('show')
