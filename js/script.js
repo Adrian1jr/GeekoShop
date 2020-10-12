@@ -35,5 +35,3 @@ $(document).ready(function () {
         } setTimeout(showAll, 400);
     });
 });
-
-$('[data-toogle="popover"]').popover('show')
